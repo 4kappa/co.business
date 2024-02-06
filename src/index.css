@@ -1,0 +1,90 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+h5 {font-size: clamp(32px, 5vw, 96px) !important; line-height: clamp(34px, 5vw, 98px) !important}
+h4 {font-size: clamp(40px, 5vw, 48px) !important; line-height: clamp(42px, 5vw, 50px) !important}
+h3 {font-size: clamp(32px, 5vw, 40px) !important; line-height: clamp(34px, 5vw, 42px) !important}
+h2 {font-size: clamp(24px, 5vw, 32px) !important; line-height: clamp(26px, 5vw, 34px) !important}
+h1 {font-size: clamp(16px, 5vw, 24px) !important; line-height: clamp(18px, 5vw, 26px) !important}
+
+
+
+.textSmall {font-size: clamp(12px, 5vw, 20px) !important; line-height: clamp(14px, 5vw, 22px) !important}
+.textSmallest {font-size: clamp(8px, 5vw, 16px) !important; line-height: clamp(10px, 5vw, 18px) !important}
+
+.mont {font-family: 'Montserrat', sans-serif;}
+
+.wc {color: #fff;}
+.wc {color: #000}
+
+.fw8{font-weight: 800;}
+.fw6{font-weight: 600;}
+.fw4{font-weight: 400;}
+.fw2{font-weight: 200;}
+
+.bg {background: #000;}
+.wg {background: #fff;}
+
+
+.all-page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn-flex-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 50px 0px rgb(0, 0, 0);
+    transition: all .5s ease-in-out;
+}
+.btn-flex-bg:hover {
+    box-shadow: 0px 0px 100px 0px rgb(0, 0, 0);
+}
+
+
+.wc-hover a {color:#fff; transition: all .4s ease-in-out;}
+.wc-hover:hover a{color:#000; transition: all .4s ease-in-out;}
+
+.bg-hover {background: #000;transition: all .5s ease-in-out;}
+.bg-hover:hover {background: #fff;transition: all .5s ease-in-out;} 
+
+.btn-text-up {
+    text-transform: uppercase;
+    font-size: clamp(24px, 5vw, 32px);
+}
+
+.stop-copy {
+    -ms-user-select: none; 
+		-moz-user-select: none; 
+		-webkit-user-select: none; 
+		user-select: none; 
+}
