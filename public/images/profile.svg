@@ -1,0 +1,10 @@
+<svg width="29.000000" height="32.236038" viewBox="0 0 29 32.236" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<ellipse id="circle" cx="14.500000" cy="7.300003" rx="5.777778" ry="5.800002" fill="#FFFFFF" fill-opacity="0"/>
+	<ellipse id="circle" cx="14.500000" cy="7.300003" rx="5.777778" ry="5.800002" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+	<path id="path" d="M27.5 30.736C27.5 23.5287 21.6797 17.686 14.5 17.686C7.32031 17.686 1.5 23.5287 1.5 30.736L27.5 30.736Z" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd"/>
+	<path id="path" d="M14.5 17.686C7.32031 17.686 1.5 23.5287 1.5 30.736L27.5 30.736C27.5 23.5287 21.6797 17.686 14.5 17.686Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="3.000000" stroke-linejoin="round"/>
+</svg>

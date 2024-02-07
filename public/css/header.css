@@ -1,4 +1,14 @@
-.AllHeader {
+/* Компьютерное меню */
+.AllHeader{
+  display: none;
+}
+.AllHeaderMenuMobil{
+  display: none;
+}
+
+@media screen and (min-width: 1020px){
+  .AllHeader {
+    display: block;
     width: 70vw;
     height: fit-content ;
     background: #fff;
@@ -100,3 +110,115 @@
   .user.on svg ellipse{
     stroke: #358ce2;
   }
+  .AllMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.menu-navigator {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.user-navigator {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.nav-link{
+    font-size: clamp(16px, 5vw, 24px) !important;
+    line-height: clamp(18px, 5vw, 26px) !important
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+}
+
+
+/* Мобильное меню */
+@media screen and (max-width: 1019px) {
+  .AllHeaderMenuMobil {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .logotypeMobil a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    height: 6vh;
+  }
+  .logotypeMobil .logoText {
+    color: rgb(0, 0, 0);
+    font-size: clamp(24px, 5vw, 32px);
+    font-weight: 900;
+    line-height: clamp(31px, 5vw, 39px);
+    letter-spacing: -2%;
+    text-align: center;
+    text-transform: lowercase;
+  }
+  .buttonMenuDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+  }
+  .menuDown {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    background: #3B83F1;
+    padding-top: 1vh;
+  }
+
+
+  .buttonMenuDown a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+    width: 100%;
+    height: 100%;
+  }
+  .downText {
+    font-size: clamp(8px, 5vw, 12px);
+    line-height: clamp(10px, 5vw, 14px);
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 10%;
+  }
+  .buttonMenuDown a svg {
+    stroke: #fff;
+    height: 3vh;
+  }
+
+}
