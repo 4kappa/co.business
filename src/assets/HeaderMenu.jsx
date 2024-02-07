@@ -94,14 +94,14 @@ const updateUserMobil = () => {
             </a>
             </div>
             <div id='menu-navigator'  className={isMenuClicked ? "menu-navigator" : "menu-navigator hide"} >
-              <a href="" className="nav-link fw8 wc mont">Главная</a>
-              <a href="" className="nav-link fw8 wc mont">Тарифы</a>
-              <a href="" className="nav-link fw8 wc mont">Новости</a>
-              <a href="" className="nav-link fw8 wc mont">Инструменты</a>
-              <a href="" className="nav-link fw8 wc mont">Калькулятор доходности</a>
+              <a href="" className="nav-link fw8 bc mont">Главная</a>
+              <a href="" className="nav-link fw8 bc mont">Тарифы</a>
+              <a href="" className="nav-link fw8 bc mont">Новости</a>
+              <a href="" className="nav-link fw8 bc mont">Инструменты</a>
+              <a href="" className="nav-link fw8 bc mont">Калькулятор доходности</a>
             </div>
             <div id='user-navigator'  className={isUserClicked ? "user-navigator" : "user-navigator hide"}>
-              <a href="" className="nav-link fw8 wc mont">Name</a>
+              <a href="" className="nav-link fw8 bc mont">Name</a>
 
             </div>
         </section>
@@ -152,10 +152,12 @@ const updateUserMobil = () => {
           </div>
           <section className={MenuMobil_class} id='menuMobil'>
               <button className="cancel">x</button>
-              <a href="/" className="linkMobil mont">Главная</a>
-              <a href="/" className="linkMobil mont">Тарифы</a>
-              <a href="/" className="linkMobil mont">Новости</a>
-              <a href="/" className="linkMobil mont">Инструменты</a>
+              <div className="linksMobilNavigate">
+                <a href="/" className="linkMobil mont bc">Главная</a>
+                <a href="/" className="linkMobil mont bc">Тарифы</a>
+                <a href="/" className="linkMobil mont bc">Новости</a>
+                <a href="/" className="linkMobil mont bc">Инструменты</a>
+              </div>
           </section>
           <section className={UserMobil_class} id='userMobil'>
               <h2>Name</h2>
